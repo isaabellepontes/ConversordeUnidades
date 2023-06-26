@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Conversor de Unidades</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1> Conversor de Unidades </h1>
+    </header>
+    <main>
+<form class="caixa">
+    <label for="categoria"> Escolha a Categoria:</label>
+    <select id="categoria" onchange="atualizarUnidades()"></select>
+
+    <label for="valor"> Insira o Valor:</label>
+    <input type="number" id="valor" required>
+
+    <label for="unidadeOrigem">Escolha a unidade de origem:</label>
+    <select id="Origem"></select>
+
+    <label for="unidadeDestino">Escolha a unidade de destino:</label>
+    <select id="Destino"></select>
+
+    <button type="button" onclick="converter()">Converter</button>
+
+    <p id="resultado"></p>
+
+</form>
+</main>
+<footer>
+    <h3> Desenvolvido com fins academicos </h3>
+</footer>
+
+</body>
+</html>
+
