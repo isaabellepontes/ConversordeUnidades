@@ -1,63 +1,68 @@
-body{
+body {
   background-color: rgb(215, 152, 224);
 }
-header{
+
+header {
   background-color: rgb(180, 57, 224);
   height: 100px;
 }
 
-h1{
+h1 {
   text-align: center;
-  font-size:40px;
+  font-size: 40px;
   padding: 35px;
 }
-main{
+
+main {
   display: block;
   padding: 200px;
   height: 200px;
   justify-content: center;
   background-color: rgb(215, 152, 224);
 }
-.caixa {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    border-style: ridge;
-    border-color: blueviolet;
+
+.caixa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: rgb(180, 57, 224);;
+  border-radius: 5%;
   }
-  #categoria, #Origem, #Destino{
-    width: 200px;
-    padding: 10px;
-    font-size: 17px;
-    text-align: center;
-  }
-  
-  label {
-    margin-top: 10px;
-    font-size: 20px;
-  }
-  
-  input[type="number"] {
-    width: 200px;
-    padding: 8px;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px;
-    width: 100px;
-  }
-  
-  #resultado {
-    margin-top: 20px;
-    font-size: 20px;
-  }
-  footer{
-    padding: 5%;
-    text-align: center;
-    color: aliceblue;
-    text-align: center;
-  }
-  
-  
+
+#categoria,
+#Origem,
+#Destino {
+  width: 200px;
+  padding: 10px;
+  font-size: 17px;
+  text-align: center;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 8px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100px;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 100px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 22px;
+}
