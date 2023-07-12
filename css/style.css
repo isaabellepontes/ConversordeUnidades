@@ -16,12 +16,16 @@ h1 {
 main {
   display: block;
   padding: 200px;
+  padding-top: 5%;
+  padding-left: 32%;
   height: 200px;
   justify-content: center;
   background-color: rgb(215, 152, 224);
 }
 
 .caixa{
+  width: 500px;
+  height: 490px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +33,7 @@ main {
   background-color: rgb(180, 57, 224);;
   border-radius: 5%;
   }
-
+  
 #categoria,
 #Origem,
 #Destino {
@@ -41,6 +45,7 @@ main {
 
 label {
   margin-top: 10px;
+  line-height: 40px;
   font-size: 20px;
 }
 
@@ -61,7 +66,7 @@ button {
 }
 
 footer {
-  padding-top: 100px;
+  padding-top: 200px;
   text-align: center;
   color: aliceblue;
   font-size: 22px;

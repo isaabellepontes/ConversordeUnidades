@@ -21,7 +21,6 @@ window.onload = function() {
   //Executa a função para atualizar as unidades
     atualizarUnidades();
   }
-  
   function atualizarUnidades() {
     var categoriaSelect = document.getElementById('categoria');
     var unidadeOrigemSelect = document.getElementById('Origem');
