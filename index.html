@@ -7,29 +7,32 @@
 <script src="./js/script.js" defer></script>
 </head>
 <body>
+    <!-- Titulo da pagina-->
     <header>
         <h1> Conversor de Unidades </h1>
     </header>
     <main>
 <form class="caixa">
+    <!-- Local para escolher a categoria -->
     <label for="categoria"> Escolha a Categoria:</label>
     <select id="categoria" onchange="atualizarUnidades()"></select>
-
+<!-- Local para colocar o valor a ser convertido -->
     <label for="valor"> Insira o Valor:</label>
     <input type="number" id="valor" required>
-
+<!-- Seleção Origem -->
     <label for="unidadeOrigem">Escolha a unidade de origem:</label>
     <select id="Origem"></select>
-
+<!-- Seleção Destino -->
     <label for="unidadeDestino">Escolha a unidade de destino:</label>
     <select id="Destino"></select>
-
+<!--Botao-->
     <button type="button" onclick="converter()">Converter</button>
-
+<!-- Resultado da Operação-->
     <p id="resultado"></p>
 
 </form>
 </main>
+<!-- Parte final da pagina-->
 <footer>
     <h3> Desenvolvido com fins academicos </h3>
 </footer>
